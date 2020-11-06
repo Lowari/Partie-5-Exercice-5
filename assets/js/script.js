@@ -7,27 +7,22 @@ const text = document.getElementById("paragraph");
 
 
 buttonPink.addEventListener('click', function() {
-    text.removeAttribute("class");
     text.setAttribute("class", "pink");
 })
 
 buttonBlue.addEventListener('click', function() {
-   // text.removeAttribute("class");
     text.setAttribute("class", "blue");
 })
 
 buttonViolet.addEventListener('click', function() {
-    text.removeAttribute("class");
     text.setAttribute("class", "violet");
 })
 
 buttonBold.addEventListener('click', function() {
-    text.removeAttribute("class");
     text.setAttribute("class", "bold");
 })
 
 buttonItalic.addEventListener('click', function() {
-    text.removeAttribute("class");
     text.setAttribute("class", "italic");
 })
 
